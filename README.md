@@ -100,6 +100,31 @@ streamlit run app.py
 
 ---
 
+## Deployment
+
+This project is deployed on **Render** for free hosting.  
+
+🔗 **Live Demo:** [Fraud Detection System on Render](https://fraud-detection.onrender.com)  
+
+### Steps to Deploy on Render:
+1. Push your project to GitHub (make sure `requirements.txt` and `app.py` are present).
+2. Go to [Render](https://render.com).
+3. Create a **New Web Service**.
+4. Connect your GitHub repository.
+5. Set the following configuration:
+   - **Build Command:**  
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - **Start Command:**  
+     ```bash
+     streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+     ```
+6. Deploy! 🎉  
+
+Now, your project will be live on a Render URL which you can share.
+
+
 ## Requirements
 Full requirements list available in [`requirements.txt`](requirements.txt)
 
@@ -113,4 +138,4 @@ This project is licensed under the [MIT](LICENSE) License.
 👋 We hope you find this project useful! 🚀
 
 ## Contact Developer  
-🔗 GitHub Profile: [sorna-fast](https://github.com/sorna-fast)
+🔗 GitHub Profile: [tushar-8057](https://github.com/tushar8057)
