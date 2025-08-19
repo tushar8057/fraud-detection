@@ -104,7 +104,7 @@ streamlit run app.py
 
 This project is deployed on **Render** for free hosting.  
 
-🔗 **Live Demo:** [Fraud Detection System on Render](https://fraud-detection.onrender.com)  
+🔗 **Live Demo:** [Fraud Detection System on Render](https://fraud-detection-kl3y.onrender.com)  
 
 ### Steps to Deploy on Render:
 1. Push your project to GitHub (make sure `requirements.txt` and `app.py` are present).
